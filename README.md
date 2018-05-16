@@ -19,7 +19,7 @@ For more information visit us at [Website](https://amicorum.live)
 
 # [WHITEPAPER](https://amicorum.live/english.pdf)
 
-Or follow us on - [Twitter](https://twitter.com/AmicorumLive) I [Telegram](https://t.me/amicorumlive) I [Medium](https://medium.com/@amicorumlive)I
+# FOLLOW US ON [Twitter](https://twitter.com/AmicorumLive) I [Telegram](https://t.me/amicorumlive) I [Medium](https://medium.com/@amicorumlive)I
 
 <b>Challenges in Ticket Re-Sale Industry</b>
 
