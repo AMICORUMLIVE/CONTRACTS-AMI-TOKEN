@@ -1,0 +1,337 @@
+ 
+
+Certificate #1: RSA 2048 bits (SHA256withRSA)
+ 
+Server Key and Certificate #1
+
+
+
+Subject	amicorum.live 
+Fingerprint SHA256: 19e4d82f4cbb760d447e84788e946a0c1113c13513d53c8d43f97799802da041
+Pin SHA256: WYoVC1j4eALG/+whuM45gQfFOIk6GRI7k1MgDJ65sEM=
+Common names	amicorum.live
+Alternative names	amicorum.live *.amicorum.live
+Serial Number	088f5adfc628679473172922e5c0128f
+Valid from	Fri, 23 Feb 2018 00:00:00 UTC
+Valid until	Sat, 23 Mar 2019 12:00:00 UTC (expires in 10 months and 23 days)
+Key	RSA 2048 bits (e 65537)
+Weak key (Debian)	No
+Issuer	Amazon 
+AIA: http://crt.sca1b.amazontrust.com/sca1b.crt 
+Signature algorithm	SHA256withRSA
+Extended Validation	No
+Certificate Transparency	No
+OCSP Must Staple	No
+Revocation information	CRL, OCSP 
+CRL: http://crl.sca1b.amazontrust.com/sca1b.crl 
+OCSP: http://ocsp.sca1b.amazontrust.com 
+Revocation status	Good (not revoked)
+DNS CAA	No (more info)
+
+Trusted	Yes 
+Mozilla  Apple  Android  Java  Windows 
+
+
+ 
+Additional Certificates (if supplied)
+
+
+
+Certificates provided	4 (4556 bytes)
+Chain issues	None
+#2
+Subject	Amazon 
+Fingerprint SHA256: f55f9ffcb83c73453261601c7e044db15a0f034b93c05830f28635ef889cf670
+Pin SHA256: JSMzqOOrtyOT1kmau6zKhgT676hGgczD5VMdRMyJZFA=
+Valid until	Sun, 19 Oct 2025 00:00:00 UTC (expires in 7 years and 5 months)
+Key	RSA 2048 bits (e 65537)
+Issuer	Amazon Root CA 1
+Signature algorithm	SHA256withRSA
+#3
+Subject	Amazon Root CA 1 
+Fingerprint SHA256: 87dcd4dc74640a322cd205552506d1be64f12596258096544986b4850bc72706
+Pin SHA256: ++MBgDH5WGvL9Bcn5Be30cRcL0f5O+NyoXuWtQdX1aI=
+Valid until	Thu, 31 Dec 2037 01:00:00 UTC (expires in 19 years and 8 months)
+Key	RSA 2048 bits (e 65537)
+Issuer	Starfield Services Root Certificate Authority - G2
+Signature algorithm	SHA256withRSA
+#4
+Subject	Starfield Services Root Certificate Authority - G2 
+Fingerprint SHA256: 28689b30e4c306aab53b027b29e36ad6dd1dcf4b953994482ca84bdc1ecac996
+Pin SHA256: KwccWaCgrnaw6tsrrSO61FgLacNgG2MMLq8GE6+oP5I=
+Valid until	Wed, 28 Jun 2034 17:39:16 UTC (expires in 16 years and 2 months)
+Key	RSA 2048 bits (e 65537)
+Issuer	Starfield Technologies, Inc. / Starfield Class 2 Certification Authority
+Signature algorithm	SHA256withRSA
+
+
+ 
+ Certification Paths
+Click here to expand
+Configuration
+ 
+Protocols
+TLS 1.3	No
+TLS 1.2	Yes
+TLS 1.1	Yes
+TLS 1.0	Yes
+SSL 3	No
+SSL 2	No
+For TLS 1.3 tests, we currently support draft version 18.
+
+
+ 
+Cipher Suites
+ 
+# TLS 1.2 (suites in server-preferred order)
+TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)   ECDH secp256r1 (eq. 3072 bits RSA)   FS	128	
+TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027)   ECDH secp256r1 (eq. 3072 bits RSA)   FS	128	
+TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)   ECDH secp256r1 (eq. 3072 bits RSA)   FS	128	
+TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)   ECDH secp256r1 (eq. 3072 bits RSA)   FS	256	
+TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028)   ECDH secp256r1 (eq. 3072 bits RSA)   FS	256	
+TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)   ECDH secp256r1 (eq. 3072 bits RSA)   FS	256	
+TLS_RSA_WITH_AES_128_GCM_SHA256 (0x9c)   WEAK	128	
+TLS_RSA_WITH_AES_128_CBC_SHA256 (0x3c)   WEAK	128	
+TLS_RSA_WITH_AES_128_CBC_SHA (0x2f)   WEAK	128	
+TLS_RSA_WITH_AES_256_GCM_SHA384 (0x9d)   WEAK	256	
+TLS_RSA_WITH_AES_256_CBC_SHA256 (0x3d)   WEAK	256	
+TLS_RSA_WITH_AES_256_CBC_SHA (0x35)   WEAK	256	
+ 
+# TLS 1.1 (suites in server-preferred order)
+ 
+# TLS 1.0 (suites in server-preferred order)
+
+
+ 
+Handshake Simulation
+Android 2.3.7   No SNI 2
+RSA 2048 (SHA256)  
+TLS 1.0	TLS_RSA_WITH_AES_128_CBC_SHA  No FS
+Android 4.0.4
+RSA 2048 (SHA256)  
+TLS 1.0	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Android 4.1.1
+RSA 2048 (SHA256)  
+TLS 1.0	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Android 4.2.2
+RSA 2048 (SHA256)  
+TLS 1.0	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Android 4.3
+RSA 2048 (SHA256)  
+TLS 1.0	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Android 4.4.2
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Android 5.0.0
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Android 6.0
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Android 7.0
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Baidu Jan 2015
+RSA 2048 (SHA256)  
+TLS 1.0	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+BingPreview Jan 2015
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Chrome 49 / XP SP3
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Chrome 57 / Win 7  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Firefox 31.3.0 ESR / Win 7
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Firefox 47 / Win 7  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Firefox 49 / XP SP3
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Firefox 53 / Win 7  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Googlebot Feb 2018
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+IE 7 / Vista
+RSA 2048 (SHA256)  
+TLS 1.0	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+IE 8 / XP   No FS 1   No SNI 2
+Server sent fatal alert: handshake_failure
+IE 8-10 / Win 7  R
+RSA 2048 (SHA256)  
+TLS 1.0	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+IE 11 / Win 7  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256   ECDH secp256r1  FS
+IE 11 / Win 8.1  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256   ECDH secp256r1  FS
+IE 10 / Win Phone 8.0
+RSA 2048 (SHA256)  
+TLS 1.0	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+IE 11 / Win Phone 8.1  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256   ECDH secp256r1  FS
+IE 11 / Win Phone 8.1 Update  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256   ECDH secp256r1  FS
+IE 11 / Win 10  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Edge 15 / Win 10  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Edge 13 / Win Phone 10  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Java 6u45   No SNI 2
+RSA 2048 (SHA256)  	TLS 1.0	TLS_RSA_WITH_AES_128_CBC_SHA  No FS
+Java 7u25
+RSA 2048 (SHA256)  
+TLS 1.0	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Java 8u161
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+OpenSSL 0.9.8y
+RSA 2048 (SHA256)  
+TLS 1.0	TLS_RSA_WITH_AES_128_CBC_SHA  No FS
+OpenSSL 1.0.1l  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+OpenSSL 1.0.2e  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Safari 5.1.9 / OS X 10.6.8
+RSA 2048 (SHA256)  
+TLS 1.0	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Safari 6 / iOS 6.0.1
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256   ECDH secp256r1  FS
+Safari 6.0.4 / OS X 10.8.4  R
+RSA 2048 (SHA256)  
+TLS 1.0	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Safari 7 / iOS 7.1  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256   ECDH secp256r1  FS
+Safari 7 / OS X 10.9  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256   ECDH secp256r1  FS
+Safari 8 / iOS 8.4  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256   ECDH secp256r1  FS
+Safari 8 / OS X 10.10  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256   ECDH secp256r1  FS
+Safari 9 / iOS 9  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Safari 9 / OS X 10.11  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Safari 10 / iOS 10  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Safari 10 / OS X 10.12  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Apple ATS 9 / iOS 9  R
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Yahoo Slurp Jan 2015
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+YandexBot Jan 2015
+RSA 2048 (SHA256)  
+TLS 1.2	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+			
+ 
+# Not simulated clients (Protocol mismatch)
+IE 6 / XP   No FS 1   No SNI 2
+Protocol mismatch (not simulated)
+			
+
+(1) Clients that do not support Forward Secrecy (FS) are excluded when determining support for it.
+(2) No support for virtual SSL hosting (SNI). Connects to the default site if the server uses SNI.
+(3) Only first connection attempt simulated. Browsers sometimes retry with a lower protocol version.
+(R) Denotes a reference browser or client, with which we expect better effective security.
+(All) We use defaults, but some platforms do not use their best protocols and features (e.g., Java 6 & 7, older IE).
+(All) Certificate trust is not checked in handshake simulation, we only perform TLS handshake.
+
+
+ 
+Protocol Details
+DROWN	No, server keys and hostname not seen elsewhere with SSLv2
+(1) For a better understanding of this test, please read this longer explanation
+(2) Key usage data kindly provided by the Censys network search engine; original DROWN website here
+(3) Censys data is only indicative of possible key and certificate reuse; possibly out-of-date and not complete
+
+Secure Renegotiation	Supported
+Secure Client-Initiated Renegotiation	Yes
+Insecure Client-Initiated Renegotiation	No
+BEAST attack	Not mitigated server-side (more info)   TLS 1.0: 0xc013
+
+POODLE (SSLv3)	No, SSL 3 not supported (more info)
+
+POODLE (TLS)	No (more info)
+
+Downgrade attack prevention	Yes, TLS_FALLBACK_SCSV supported (more info)
+
+SSL/TLS compression	No
+RC4	No
+Heartbeat (extension)	No
+Heartbleed (vulnerability)	No (more info)
+
+Ticketbleed (vulnerability)	No (more info)
+
+OpenSSL CCS vuln. (CVE-2014-0224)	No (more info)
+
+OpenSSL Padding Oracle vuln.
+(CVE-2016-2107)	No (more info)
+
+ROBOT (vulnerability)	No (more info)
+
+Forward Secrecy	With modern browsers (more info)
+
+ALPN	No
+NPN	No
+Session resumption (caching)	Yes
+Session resumption (tickets)	No
+OCSP stapling	No
+Strict Transport Security (HSTS)	No
+HSTS Preloading	Not in: Chrome  Edge  Firefox  IE 
+Public Key Pinning (HPKP)	No (more info)
+
+Public Key Pinning Report-Only	No
+Public Key Pinning (Static)	No (more info)
+
+Long handshake intolerance	No
+TLS extension intolerance	No
+TLS version intolerance	No
+Incorrect SNI alerts	No
+Uses common DH primes	No, DHE suites not supported
+DH public server param (Ys) reuse	No, DHE suites not supported
+ECDH public server param reuse	No
+Supported Named Groups	secp256r1
+SSL 2 handshake compatibility	Yes
+
+
+ 
+ HTTP Requests
+1 https://www.amicorum.live/  (HTTP/1.1 200 OK)
+
+
+ 
+Miscellaneous
+Test date	Fri, 27 Apr 2018 17:16:53 UTC
+Test duration	111.43 seconds
+HTTP status code	200
+HTTP server signature	nginx/1.10.3 (Ubuntu)
+Server hostname	ec2-18-188-110-53.us-east-2.compute.amazonaws.com
+
+
